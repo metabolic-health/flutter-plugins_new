@@ -552,6 +552,8 @@ class HealthFactory {
         return 3;
       case HealthDataType.SLEEP_REM:
         return 4;
+      case HealthDataType.SLEEP_CORE:
+        return 5;
       case HealthDataType.HEADACHE_UNSPECIFIED:
         return 0;
       case HealthDataType.HEADACHE_NOT_PRESENT:
